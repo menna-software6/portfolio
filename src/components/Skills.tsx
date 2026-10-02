@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { motion } from 'motion/react';
 import { Terminal, Globe, Cpu, Wrench, Layers, CheckCircle2 } from 'lucide-react';
 import { SKILL_CATEGORIES } from '../data/portfolioData';
 

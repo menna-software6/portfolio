@@ -1,5 +1,4 @@
 import React from 'react';
-import { motion } from 'motion/react';
 import { GraduationCap, MapPin, Calendar, Compass, ArrowUpRight } from 'lucide-react';
 import { PERSONAL_INFO } from '../data/portfolioData';
 
