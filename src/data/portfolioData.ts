@@ -1,3 +1,8 @@
+import azureaImg from '../assets/images/project_azurea_resort_1790596446222.jpg';
+import saasImg from '../assets/images/project_saas_dashboard_1790596461466.jpg';
+import jobPlatformImg from '../assets/images/project_job_platform_1790596474092.jpg';
+import realEstateImg from '../assets/images/project_real_estate_1790596486259.jpg';
+
 export interface Project {
   id: string;
   title: string;
@@ -161,7 +166,7 @@ export const PROJECTS: Project[] = [
     subtitle: 'Modern Private Coastal Resort Experience',
     description:
       'A refined, modern website designed for a private Mediterranean coastal resort. Built to showcase luxury accommodations, curated seaside experiences, dining options, and a seamless reservation inquiry flow with clean responsive styling.',
-    image: '/src/assets/images/project_azurea_resort_1790596446222.jpg',
+    image: azureaImg,
     status: 'Live',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Responsive Web Design', 'Git', 'GitHub Pages'],
     liveUrl: 'https://menna-software6.github.io/azurea-resort/',
@@ -185,7 +190,7 @@ export const PROJECTS: Project[] = [
     subtitle: 'Cloud Operations & Analytics Interface',
     description:
       'An enterprise SaaS dashboard application currently in active development, engineered for clear metric monitoring, modular telemetry cards, and intuitive administration workflows.',
-    image: '/src/assets/images/project_saas_dashboard_1790596461466.jpg',
+    image: saasImg,
     status: 'In Development',
     technologies: ['JavaScript', 'HTML', 'CSS', 'Object-Oriented Programming (OOP)', 'Git'],
     highlights: [
@@ -205,7 +210,7 @@ export const PROJECTS: Project[] = [
     subtitle: 'Developer Career & Opportunity Portal',
     description:
       'A streamlined career matching platform designed to connect aspiring software developers with tailored technical roles, featuring multi-criteria search, role requirements, and structured candidate profiles.',
-    image: '/src/assets/images/project_job_platform_1790596474092.jpg',
+    image: jobPlatformImg,
     status: 'In Development',
     technologies: ['Web Development', 'JavaScript', 'HTML', 'CSS', 'Responsive Web Design'],
     highlights: [
@@ -225,7 +230,7 @@ export const PROJECTS: Project[] = [
     subtitle: 'Architectural Property Showcase',
     description:
       'A modern architectural real estate platform built for discovering luxury residences and commercial spaces, highlighting floor plans, neighborhood amenities, and direct consultant inquiries.',
-    image: '/src/assets/images/project_real_estate_1790596486259.jpg',
+    image: realEstateImg,
     status: 'In Development',
     technologies: ['Web Development', 'HTML', 'CSS', 'JavaScript', 'Problem Solving'],
     highlights: [

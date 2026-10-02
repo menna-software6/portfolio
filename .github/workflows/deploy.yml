@@ -29,6 +29,8 @@ jobs:
 
       - name: Build project
         run: npm run build
+        env:
+          GITHUB_PAGES: 'true'
 
       - name: Upload website
         uses: actions/upload-pages-artifact@v3

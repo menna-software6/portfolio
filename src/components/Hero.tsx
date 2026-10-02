@@ -2,6 +2,7 @@ import React from 'react';
 import { ArrowDown, ArrowUpRight, Github, Linkedin, Mail, Code2, Terminal } from 'lucide-react';
 import { motion } from 'motion/react';
 import { PERSONAL_INFO } from '../data/portfolioData';
+import workspaceImg from '../assets/images/developer_workspace_1790596497287.jpg';
 
 export const Hero: React.FC = () => {
   const scrollTo = (id: string) => {
@@ -173,7 +174,7 @@ export const Hero: React.FC = () => {
                 {/* Workspace Visual Representation */}
                 <div className="relative aspect-[4/3] rounded-xl overflow-hidden mb-5 bg-[#09090b] border border-white/[0.05]">
                   <img
-                    src="/src/assets/images/developer_workspace_1790596497287.jpg"
+                    src={workspaceImg}
                     alt="Developer workstation setup representing Menna Abed's focus on software engineering"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     referrerPolicy="no-referrer"
